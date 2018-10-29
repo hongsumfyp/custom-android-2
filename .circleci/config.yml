@@ -5,7 +5,7 @@
 version: 2
 jobs:
   build:
-    working_directory: ~/java-goof-circle
+    working_directory: ~/bds-test-repo-high-circle
     
     docker:
       # specify the version you desire here
