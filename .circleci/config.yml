@@ -15,7 +15,7 @@ jobs:
     
       - checkout
       
-      - run: mvn install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
+      - run: ./gradlew check
 
       - run: sudo su -c 'echo "deb http://deb.debian.org/debian jessie-backports main" >> /etc/apt/sources.list'
       - run: sudo rm -rf /var/lib/apt/lists/*
