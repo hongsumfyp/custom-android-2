@@ -69,6 +69,12 @@ dependencies {
 	compile group: 'io.spray', name: 'spray-httpx', version: '1.1.3'
 	compile group: 'org.apache.httpcomponents', name: 'httpclient', version: '4.5.1'
 	compile group: 'com.sparkjava', name: 'spark-core', version: '2.7.2'
+	
+	
+	compile group: 'io.netty', name: 'netty', version: 'netty-4.1.0.Beta4'
+	compile group: 'org.apache.oodt', name: 'oodt-core', version: '0.4'
+	compile group: 'org.apache.hadoop', name: 'hadoop-yarn-common', version: 'YARN-2928-2016-06-21'
+	compile group: 'net.bull.javamelody', name: 'javamelody-core', version: '1.61.0'
 }
 
 task wrapper(type: Wrapper) {
