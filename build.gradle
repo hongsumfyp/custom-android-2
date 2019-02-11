@@ -67,7 +67,7 @@ task wrapper(type: Wrapper) {
     gradleVersion = '3.2'
 }
 
-buildscript {
+/*buildscript {
     repositories {
         mavenCentral()
     }
@@ -76,4 +76,4 @@ buildscript {
     }
 }
 
-apply plugin: 'org.owasp.dependencycheck'
+apply plugin: 'org.owasp.dependencycheck'*/
