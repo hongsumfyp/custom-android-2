@@ -5,7 +5,7 @@
 version: 2
 jobs:
   build:
-    working_directory: ~/bds-test-repo-high-circle
+    working_directory: ~/custom-android
     
     docker:
       # specify the version you desire here
