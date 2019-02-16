@@ -5,7 +5,7 @@
 version: 2
 jobs:
   build:
-    working_directory: ~/custom-android
+    working_directory: ~/custom-android-2
     
     docker:
       # specify the version you desire here
