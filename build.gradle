@@ -74,6 +74,8 @@ dependencies {
 
 	compile group: 'org.apache.oodt', name: 'oodt-core', version: '0.4'
 	
+	
+	
 	compile group: 'org.mindrot', name: 'jbcrypt', version: '0.3m'
 	//compile group: 'org.springframework', name: 'spring-web', version: '3.1.1.RELEASE'
 	compile group: 'org.apache.sling', name: 'org.apache.sling.engine', version: '2.0.4-incubator'
@@ -83,6 +85,25 @@ dependencies {
 	compile group: 'org.apache.kafka', name: 'kafka_2.11', version: '0.9.0.1'
 	compile group: 'net.bull.javamelody', name: 'javamelody-core', version: '1.59.0'
 	compile group: 'com.orientechnologies', name: 'orientdb-server', version: '2.1.9'
+	
+	
+	
+	
+	    compile("org.springframework.boot:spring-boot-starter-data-jpa")
+    compile("org.hibernate:hibernate-core:4.3.10.Final")
+    compile("org.springframework.boot:spring-boot-starter-web")
+    compile("org.springframework.security:spring-security-taglibs:4.0.2.RELEASE")
+    compile("org.springframework.boot:spring-boot-starter-security")
+    compile("org.springframework.session:spring-session-data-redis:1.0.1.RELEASE")
+    compile("log4j:log4j:1.2.17")
+    compile("javax.servlet:jstl:1.2")
+    compile("com.h2database:h2")
+    compile("org.owasp.encoder:encoder:1.2")
+    compile("org.owasp.encoder:encoder-jsp:1.2")
+    compile("org.owasp.esapi:esapi:2.0.1")
+    runtime("mysql:mysql-connector-java")
+    testCompile("org.springframework.boot:spring-boot-starter-test")
+    runtime("org.apache.tomcat.embed:tomcat-embed-jasper")
 }
 
 task wrapper(type: Wrapper) {
