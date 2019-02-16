@@ -102,7 +102,6 @@ dependencies {
     compile("org.owasp.encoder:encoder-jsp:1.2")
     compile("org.owasp.esapi:esapi:2.0.1")
     runtime("mysql:mysql-connector-java")
-    testCompile("org.springframework.boot:spring-boot-starter-test")
     runtime("org.apache.tomcat.embed:tomcat-embed-jasper")
 }
 
